@@ -1,0 +1,35 @@
+* {
+     margin: 0;
+     box-sizing: border-box;
+}
+.app {
+     background-color: #00171f;
+     font-family: sans-serif;
+     text-align: center;
+     width: 100%;
+     max-width: 1240px;
+     margin: 0 auto;
+     padding: 10px 0;
+}
+.main {
+     width: 98%;
+     margin: 0 auto;
+     min-height: 100vh;
+     height: 100%;
+     border: 2px solid #1ac9e8;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+h1,
+p {
+     color: #1ac9e8;
+}
+
+.app.light {
+     background-color: lightgray;
+}
+.app.light h1,
+.app.light p {
+     color: black;
+}

@@ -1,0 +1,16 @@
+.header {
+     display: flex;
+     padding: 15px;
+     box-sizing: border-box;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+}
+.header > a > img {
+     width: 120px;
+     object-fit: contain;
+}
+.header > div {
+     display: flex;
+     align-items: center;
+}
